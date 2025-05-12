@@ -1,4 +1,9 @@
-
+import pizza1 from '../photo/pizza1-removebg-preview.png';
+import pizza2 from '../photo/pizza2-removebg-preview.png';
+import pizza3 from '../photo/pizza3-removebg-preview.png';
+import sp1 from '../photo/sp1.png';
+import sp2 from '../photo/sp2.png';
+import sp3 from '../photo/spagitywithmeat-removebg-preview.png';
 export function loadMenu() {
   console.log('Menu section loaded');
   document.body.className = 'menu-active';
@@ -16,7 +21,7 @@ export function loadMenu() {
   MenuDiv1.classList.add('MenuDiv1');
   const Pizza1 = document.createElement('img');
   Pizza1.classList.add('PizzaImg1');
-  Pizza1.src = '/src/photo/pizza1-removebg-preview.png';
+  Pizza1.image = pizza1;
   Pizza1.alt = 'The pizza 1';
   const TextImg1 = document.createElement('div');
   TextImg1.classList.add('Text1Img');
@@ -40,7 +45,7 @@ export function loadMenu() {
   MenuDiv2.classList.add('MenuDiv2');
   const Pizza2 = document.createElement('img');
   Pizza2.classList.add('ImgPizza2', 'PizzaImg2');
-  Pizza2.src = '/src/photo/pizza2-removebg-preview.png';
+  Pizza2.src = pizza2;
   Pizza2.alt = 'The pizza 2';
   const TextImg2 = document.createElement('div');
   TextImg2.classList.add('TextImg2');
@@ -63,7 +68,7 @@ export function loadMenu() {
   const MenuDiv3 = document.createElement('div');
   MenuDiv3.classList.add('MenuDiv3');
   const pizza3 = document.createElement('img');
-  pizza3.src = '/src/photo/pizza3-removebg-preview.png';
+  pizza3.src = pizza3;
   pizza3.alt = 'The pizza 3';
   pizza3.classList.add('PizzaImg3');
   const TextImg3 = document.createElement('div');
@@ -94,7 +99,7 @@ export function loadMenu() {
   SpaghettiDiv1.classList.add('MenuDiv1');
   const Spaghetti1 = document.createElement('img');
   Spaghetti1.classList.add('SpaghettiImg1');
-  Spaghetti1.src = '/src/photo/sp1.png';
+  Spaghetti1.src = sp1;
   Spaghetti1.alt = 'Spaghetti 1';
   const TextImgSpaghetti1 = document.createElement('div');
   TextImgSpaghetti1.classList.add('Text1ImgSp1');
@@ -118,7 +123,7 @@ export function loadMenu() {
   SpaghettiDiv2.classList.add('MenuDiv2');
   const Spaghetti2 = document.createElement('img');
   Spaghetti2.classList.add('SpaghettiImg2');
-  Spaghetti2.src = '/src/photo/sp2.png';
+  Spaghetti2.src = sp2;
   Spaghetti2.alt = 'Spaghetti 2';
   const TextImgSpaghetti2 = document.createElement('div');
   TextImgSpaghetti2.classList.add('TextImgSp2');
@@ -142,7 +147,7 @@ export function loadMenu() {
   SpaghettiDiv3.classList.add('MenuDiv3');
   const Spaghetti3 = document.createElement('img');
   Spaghetti3.classList.add('SpaghettiImg3');
-  Spaghetti3.src = '/src/photo/spagitywithmeat-removebg-preview.png';
+  Spaghetti3.src = sp3;
   Spaghetti3.alt = 'Spaghetti 3';
   const TextImgSpaghetti3 = document.createElement('div');
   TextImgSpaghetti3.classList.add('TextImgSp3');
