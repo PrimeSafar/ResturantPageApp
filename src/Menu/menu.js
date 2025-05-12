@@ -1,6 +1,6 @@
 import pizza1 from '../photo/pizza1-removebg-preview.png';
 import pizza2 from '../photo/pizza2-removebg-preview.png';
-import pizza3 from '../photo/pizza3-removebg-preview.png';
+import pizza33 from '../photo/pizza3.png';
 import sp1 from '../photo/sp1.png';
 import sp2 from '../photo/sp2.png';
 import sp3 from '../photo/spagitywithmeat-removebg-preview.png';
@@ -21,7 +21,7 @@ export function loadMenu() {
   MenuDiv1.classList.add('MenuDiv1');
   const Pizza1 = document.createElement('img');
   Pizza1.classList.add('PizzaImg1');
-  Pizza1.image = pizza1;
+  Pizza1.src = pizza1;
   Pizza1.alt = 'The pizza 1';
   const TextImg1 = document.createElement('div');
   TextImg1.classList.add('Text1Img');
@@ -68,7 +68,7 @@ export function loadMenu() {
   const MenuDiv3 = document.createElement('div');
   MenuDiv3.classList.add('MenuDiv3');
   const pizza3 = document.createElement('img');
-  pizza3.src = pizza3;
+  pizza3.src = pizza33;
   pizza3.alt = 'The pizza 3';
   pizza3.classList.add('PizzaImg3');
   const TextImg3 = document.createElement('div');
