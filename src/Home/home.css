@@ -1,0 +1,31 @@
+/* home.css */
+
+body {
+    font-family: "Playfair Display", serif;
+}
+
+.HeaderText {
+    text-align: center;
+}
+
+
+/* Center Text */
+.CenterText {
+    position: absolute;
+    top: 45%;
+    left: 10%;
+    color: aliceblue;
+    font-size: 1.5rem;
+    text-align: left;
+}
+/* Add to the bottom of home.css */
+
+@media (max-width: 768px) {
+    .CenterText {
+      top: 55%;
+      left: 5%;
+      right: 5%;
+      width: 90%;
+      text-align: center;
+    }
+  }

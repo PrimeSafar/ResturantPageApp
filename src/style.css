@@ -1,0 +1,468 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:wght@400;600&display=swap');
+
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: "Playfair Display", serif;
+}
+
+/* Background Image */
+.imgpage {
+    background-image: url(./photo/logoimg.jpg); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+
+/* Header */
+.Header {
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5%;
+    height: 80px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 10;
+}
+
+.HeaderText {
+    font-family: "Great Vibes", serif;
+    font-size: 2.5rem;
+    color: aliceblue;
+}
+
+/* Navigation */
+.Nav {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-btnHome,.nav-btnMenu,.nav-btnCont {
+    background: none;
+    border: none;
+    color: aliceblue;
+    font-size: 1.2rem;
+    font-weight: 600;
+    cursor: pointer;
+    font-family: "Playfair Display", serif;
+    transition: color 0.3s ease;
+}
+
+.nav-btnHome:hover,.nav-btnMenu:hover,.nav-btnCont:hover {
+    color: goldenrod;
+}
+
+/* Center Text */
+.CenterText {
+    position: absolute;
+    top: 45%;
+    left: 10%;
+    color: aliceblue;
+    font-size: 1.5rem;
+    text-align: left;
+}
+
+.CenterRes {
+    font-family: "Great Vibes", serif;
+    font-size: 2.5rem;
+    color: aliceblue;
+}
+
+/* Footer */
+.footer1 {
+    font-family: "Great Vibes", serif;
+    color: aliceblue;
+    font-size: 1.2rem;
+    font-weight: 600;
+    background-color: rgba(0, 0, 0, 0.8);
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    left: 0%;
+    bottom: 0;
+    width: 100%;
+}
+/* Add to the bottom of style.css */
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    /* Header adjustments */
+    .Header {
+      flex-direction: column;
+      height: auto;
+      padding: 15px 5%;
+    }
+  
+    .HeaderText {
+      font-size: 2rem;
+      margin-bottom: 10px;
+    }
+  
+    .Nav {
+      width: 100%;
+      justify-content: space-around;
+      gap: 10px;
+    }
+  
+    /* Center text adjustments */
+    .CenterText {
+      top: 30%;
+      left: 5%;
+      right: 5%;
+      width: 90%;
+      font-size: 1.2rem;
+      text-align: center;
+    }
+  
+    .CenterRes {
+      font-size: 2rem;
+    }
+  
+    /* Footer adjustments */
+    .footer1 {
+      font-size: 1rem;
+      padding: 8px;
+    }
+  }
+
+
+
+
+
+
+
+ 
+/* === Home Section Styles === */
+.home-active .imgpage {
+  background-image: url(./photo/logoimg.jpg);
+}
+
+.home-active .CenterText {
+  position: absolute;
+  top: 45%;
+  left: 10%;
+  color: aliceblue;
+  font-size: 1.6rem;
+  text-align: left;
+  background-color: transparent;
+}
+
+.home-active .CenterRes {
+  font-size: 2rem;
+  color: #fcfbfa;
+}
+
+/* === Menu Section Styles === */
+.menu-active .imgpage {
+  background-color: rgb(248, 248, 248);
+  background-image: none;
+}
+
+.menu-active .CenterText {
+  font-family: "Great Vibes", serif;
+  position: absolute;
+  top: 15%;
+  color: black;
+  font-size: 4rem;
+  padding-top: 1%;
+  height: 75%;
+  width: 100%;
+  left: 0%;
+  text-align: center;
+  background-color: rgb(233, 230, 230);
+}
+
+/* Menu Items */
+.MenuDiv1, .MenuDiv2, .MenuDiv3 {
+  width: 400px;
+  padding-left: 1%;
+  height: 200px;
+  font-size: 3rem;
+  display: flex;
+}
+
+.pizzaWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.PizzaImg1, .PizzaImg2, .PizzaImg3,
+.SpaghettiImg1, .SpaghettiImg2, .SpaghettiImg3 {
+  width: 125px;
+  height: 125px;
+  border-radius: 50%;
+  margin-top: 15px;
+  margin-left: 8px;
+}
+
+.Text1Img, .TextImg2, .TextImg3,
+.Text1ImgSp1, .TextImgSp2, .TextImgSp3 {
+  font-family: "Playfair Display", serif;
+  font-size: 1.8rem;
+  padding-top: 15px;
+  padding-right: 10px;
+  font-weight: 600;
+  text-align: start;
+  padding-left: 7%;
+  padding-bottom: 2%;
+}
+
+.PricePizza1, .PricePizza2, .price3,
+.PriceSpaghetti1, .PriceSpaghetti2, .PriceSpaghetti3 {
+  font-size: 2.2rem;
+  text-align: start;
+  padding-left: 7%;
+  color: rgb(202, 114, 0);
+}
+
+.descripPizza, .descriptionPizz2, .descripPizza3,
+.descripSpaghetti, .descriptionSpaghetti2, .descripSpaghetti3 {
+  font-family: "Playfair Display", serif;
+  font-size: 0.9rem;
+  padding-left: 5px;
+}
+
+.merge {
+  display: flex;
+  flex-direction: column;
+}
+
+/* === Contact Section Styles === */
+.content-active .imgpage {
+  background-image: url(/src/photo/logoimg.jpg);
+}
+
+.content-active .CenterText {
+  position: absolute;
+  top: 7%;
+  background-color: transparent;
+}
+
+.contact-us {
+  font-family: 'Roboto', sans-serif;
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 40px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.contact-us h2 {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.contact-us p {
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+.contact-details {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 30px;
+}
+
+.contact-item {
+  font-size: 1.1rem;
+  color: #333;
+}
+
+.contact-item h3 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #e67e22;
+  margin-bottom: 5px;
+}
+
+.contact-item p {
+  font-size: 1rem;
+  color: #777;
+}
+
+.contact-item a {
+  color: #e67e22;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.contact-item a:hover {
+  text-decoration: underline;
+  color: #d35400;
+}
+
+/* Form Styles */
+form {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+  width: 100%;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+input, textarea {
+  padding: 10px;
+  font-size: 1rem;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+input:focus, textarea:focus {
+  border-color: #e67e22;
+}
+
+textarea {
+  resize: horizontal;
+  min-height: 30px;
+}
+
+.contButton {
+  width: 400px;
+  margin: 30px;
+  height: 50px;
+  background-color: #e67e22;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contButton:hover {
+  background-color: #d35400;
+}
+
+.contButton:active {
+  background-color: #c0392b;
+}
+
+/* === Responsive Styles === */
+@media (max-width: 768px) {
+  /* General */
+  .CenterText {
+    top: 20%;
+    font-size: 3rem;
+    padding-top: 20px;
+    height: auto;
+  }
+  
+  /* Home */
+  .home-active .CenterText {
+    top: 55%;
+    left: 5%;
+    right: 5%;
+    width: 90%;
+    text-align: center;
+  }
+  
+  /* Menu */
+  .pizzaWrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .MenuDiv1, .MenuDiv2, .MenuDiv3 {
+    width: 90%;
+    margin-bottom: 30px;
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .PizzaImg1, .PizzaImg2, .PizzaImg3,
+  .SpaghettiImg1, .SpaghettiImg2, .SpaghettiImg3 {
+    margin: 15px auto;
+  }
+  
+  .Text1Img, .TextImg2, .TextImg3,
+  .Text1ImgSp1, .TextImgSp2, .TextImgSp3 {
+    text-align: center;
+    padding-left: 0;
+  }
+  
+  .PricePizza1, .PricePizza2, .price3,
+  .PriceSpaghetti1, .PriceSpaghetti2, .PriceSpaghetti3 {
+    text-align: center;
+    padding-left: 0;
+  }
+  
+  /* Contact */
+  .contact-us {
+    padding: 20px;
+    margin: 20px auto;
+    width: 90%;
+  }
+  
+  .contact-us h2 {
+    font-size: 1.8rem;
+  }
+  
+  .contact-details {
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .contact-item {
+    margin-bottom: 15px;
+  }
+  
+  form {
+    grid-template-columns: 1fr;
+  }
+  
+  .contButton {
+    width: 100%;
+    margin: 20px 0;
+  }
+  
+  .content-active .CenterText {
+    top: 20px;
+    position: relative;
+  }
+}
+
+@media (min-width: 769px) {
+  .contact-details {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  form {
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+  }
+}

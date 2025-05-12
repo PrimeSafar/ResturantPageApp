@@ -1,0 +1,258 @@
+body{
+    font-family: "Playfair Display", serif;
+}
+.imgpage{
+    background-color: rgb(248, 248, 248);
+    background-image: none;
+}
+.CenterText {
+    font-family: "Great Vibes", serif;
+    position: absolute;
+    top: 15%;
+    color: black;
+    font-size: 4rem;
+    padding-top: 1%;
+    /* display: grid;
+    grid-template-columns: 150px 150px 150px 150px;
+    grid-template-rows: 150px 150px 150px 150px; */
+    height: 75%;
+    width: 100%;
+    left: 0%;
+    text-align: center;
+    background-color: rgb(233, 230, 230);
+    
+}
+.MenuDiv1{
+    width: 400px;
+    padding-left: 1%;
+    height: 200px;
+    font-size: 3rem;
+    display: flex;
+}
+.PizzaImg1{
+    width: 125px;
+    height: 125px;
+    /* border: 3px solid rgb(202, 114, 0); */
+    border-radius: 50%;
+    margin-top: 15px;
+    margin-left: 8px;
+}
+.Text1Img{
+    font-family: "Playfair Display", serif;
+    font-size: 1.8rem;
+    padding-top: 15px;
+    padding-right: 10px;
+    font-weight: 600;
+    text-align: start;
+    padding-left: 7%;
+    padding-bottom: 2%;
+}
+.PricePizza1{
+    font-size: 2.2rem;
+    text-align: start;
+    padding-left: 7%;
+    color: rgb(202, 114, 0);
+}
+.descripPizza{
+    font-family: "Playfair Display", serif;
+    font-size: 0.9rem;
+    padding-left: 5px;
+}
+/*pizza2*/
+
+.TextImg2{
+    font-family: "Playfair Display", serif;
+    font-size: 1.8rem;
+    padding-top: 15px;
+    padding-right: 10px;
+    font-weight: 600;
+    text-align: start;
+    padding-left: 7%;
+    padding-bottom: 2%;
+}
+.PricePizza2{
+    font-size: 2.2rem;
+    text-align: start;
+    padding-left: 7%;
+    color: rgb(202, 114, 0);
+}
+.descriptionPizz2{
+    font-family: "Playfair Display", serif;
+    font-size: 0.9rem;
+    padding-left: 5px;
+}
+.ImgPizza2{
+    width: 125px;
+    height: 125px;
+    /* border: 3px solid rgb(202, 114, 0); */
+    border-radius: 50%;
+    margin-top: 15px;
+}
+/*pizza3 */
+/* For Pizza 3 */
+.PizzaImg3{
+    width: 125px;
+    height: 125px;
+    /* border: 3px solid rgb(202, 114, 0); */
+    border-radius: 50%;
+    margin-top: 15px;
+}
+
+.TextImg3{
+    font-family: "Playfair Display", serif;
+    font-size: 1.8rem;
+    padding-top: 15px;
+    padding-right: 10px;
+    font-weight: 600;
+    text-align: start;
+    padding-left: 7%;
+    padding-bottom: 2%;
+}
+.price3{
+    font-size: 2.2rem;
+    text-align: start;
+    padding-left: 7%;
+    color: rgb(202, 114, 0);
+}
+.descripPizza3{
+    font-family: "Playfair Display", serif;
+    font-size: 0.9rem;
+    padding-left: 5px;
+}
+.MenuDiv2,.MenuDiv3{
+    width: 400px;
+    padding-left: 1%;
+    height: 200px;
+    font-size: 3rem;
+    display: flex;
+}
+/* for spagitte*/
+.SpaghettiImg1{
+    width: 128px;
+    height: 128px;
+    /* border: 3px solid rgb(202, 114, 0); */
+    border-radius: 100%;
+    margin-top: 15px;
+}
+.PriceSpaghetti1{
+    font-size: 2.2rem;
+    text-align: start;
+    padding-left: 7%;
+    color: rgb(202, 114, 0);
+}
+.descripSpaghetti{
+    font-family: "Playfair Display", serif;
+    font-size: 0.9rem;
+    padding-left: 5px;
+}
+.Text1ImgSp1{
+    font-family: "Playfair Display", serif;
+    font-size: 1.6rem;
+    padding-top: 15px;
+    padding-right: 10px;
+    font-weight: 600;
+    text-align: start;
+    padding-left: 7%;
+    padding-bottom: 2%;
+}
+/* Spa2 */
+.SpaghettiImg2{
+    width: 128px;
+    height: 128px;
+    /* border: 3px solid rgb(202, 114, 0); */
+    border-radius: 50%;
+    margin-top: 15px;
+}
+
+.PriceSpaghetti2{
+    font-size: 2.2rem;
+    text-align: start;
+    padding-left: 7%;
+    color: rgb(202, 114, 0);
+}
+.descriptionSpaghetti2{
+    font-family: "Playfair Display", serif;
+    font-size: 0.9rem;
+    padding-left: 5px;
+}
+.TextImgSp2{
+    font-family: "Playfair Display", serif;
+    font-size: 1.5rem;
+    padding-top: 15px;
+    padding-right: 10px;
+    font-weight: 600;
+    text-align: start;
+    padding-left: 7%;
+    padding-bottom: 2%;
+}
+/* Spa3 */
+.SpaghettiImg3{
+    width: 128px;
+    height: 128px;
+    /* border: 3px solid rgb(202, 114, 0); */
+    border-radius: 50%;
+    margin-top: 15px;
+}
+
+.PriceSpaghetti3{
+    font-size: 2.2rem;
+    text-align: start;
+    padding-left: 7%;
+    color: rgb(202, 114, 0);
+}
+.descripSpaghetti3{
+    font-family: "Playfair Display", serif;
+    font-size: 0.9rem;
+    padding-left: 5px;
+}
+.TextImgSp3{
+    font-family: "Playfair Display", serif;
+    font-size: 1.5rem;
+    padding-top: 15px;
+    padding-right: 10px;
+    font-weight: 600;
+    text-align: start;
+    padding-left: 7%;
+    padding-bottom: 2%;
+}
+/* Add to the bottom of menu.css */
+
+@media (max-width: 768px) {
+    .CenterText {
+      top: 20%;
+      font-size: 3rem;
+      padding-top: 20px;
+      height: auto;
+    }
+  
+    .pizzaWrapper {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .MenuDiv1, .MenuDiv2, .MenuDiv3 {
+      width: 90%;
+      margin-bottom: 30px;
+      height: auto;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .PizzaImg1, .PizzaImg2, .PizzaImg3,
+    .SpaghettiImg1, .SpaghettiImg2, .SpaghettiImg3 {
+      margin: 15px auto;
+    }
+  
+    .Text1Img, .TextImg2, .TextImg3,
+    .Text1ImgSp1, .TextImgSp2, .TextImgSp3 {
+      text-align: center;
+      padding-left: 0;
+    }
+  
+    .PricePizza1, .PricePizza2, .price3,
+    .PriceSpaghetti1, .PriceSpaghetti2, .PriceSpaghetti3 {
+      text-align: center;
+      padding-left: 0;
+    }
+  }
