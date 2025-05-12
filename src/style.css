@@ -15,7 +15,7 @@ html, body {
 
 /* Background Image */
 .imgpage {
-    background-image: url(./photo/logoimg.jpg); /* Replace with your image path */
+    background-image: url(./asset/logoimg.jpg); /* Replace with your image path */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -146,7 +146,7 @@ html, body {
  
 /* === Home Section Styles === */
 .home-active .imgpage {
-  background-image: url(./photo/logoimg.jpg);
+  background-image: url(./asset/logoimg.jpg);
 }
 
 .home-active .CenterText {
@@ -242,7 +242,7 @@ html, body {
 
 /* === Contact Section Styles === */
 .content-active .imgpage {
-  background-image: url(/src/photo/logoimg.jpg);
+  background-image: url(/src/asset/logoimg.jpg);
 }
 
 .content-active .CenterText {

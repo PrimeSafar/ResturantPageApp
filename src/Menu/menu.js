@@ -1,9 +1,9 @@
-import pizza1 from '../photo/pizza1-removebg-preview.png';
-import pizza2 from '../photo/pizza2-removebg-preview.png';
-import pizza33 from '../photo/pizza3.png';
-import sp1 from '../photo/sp1.png';
-import sp2 from '../photo/sp2.png';
-import sp3 from '../photo/spagitywithmeat-removebg-preview.png';
+import pizza1 from '../asset/pizza1-removebg-preview.png';
+import pizza2 from '../asset/pizza2-removebg-preview.png';
+import pizza33 from '../asset/pizza3.png';
+import sp1 from '../asset/sp1.png';
+import sp2 from '../asset/sp2.png';
+import sp3 from '../asset/spagitywithmeat-removebg-preview.png';
 export function loadMenu() {
   console.log('Menu section loaded');
   document.body.className = 'menu-active';
