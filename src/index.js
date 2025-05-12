@@ -3,6 +3,12 @@ import { loadHome } from './Home/home.js';
 import { loadMenu } from './Menu/menu.js';
 import { loadContent } from './Content/content.js';
 import "./style.css" ;
+import pizzaImg from '../photo/pizza1-removebg-preview.png';
+import burgerImg from '../photo/pizza2-removebg-preview.png';
+import pastaImg from '../photo/pizza3-removebg-preview.png';
+import saladImg from '../photo/sp1.png';
+import drinkImg from '../photo/sp2.png';
+import dessertImg from '../photo/spagitywithmeat-removebg-preview.png';
 
 
 

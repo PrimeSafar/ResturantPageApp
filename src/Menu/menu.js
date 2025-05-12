@@ -1,9 +1,4 @@
-import pizzaImg from '../photo/pizza1-removebg-preview.png';
-import burgerImg from '../photo/pizza2-removebg-preview.png';
-import pastaImg from '../photo/pizza3-removebg-preview.png';
-import saladImg from '../photo/sp1.png';
-import drinkImg from '../photo/sp2.png';
-import dessertImg from '../photo/spagitywithmeat-removebg-preview.png';
+
 export function loadMenu() {
   console.log('Menu section loaded');
   document.body.className = 'menu-active';
